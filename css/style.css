@@ -1,7 +1,24 @@
-body {
-    background-color: #496DDB;
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --cream: #496DDB;
+    --dark: #EE8434;
+    --muted: #717EC3;
+    --accent: #C95D63;
+    --accent-light: #AE8799;
+    --border: rgba(26,23,20,0.12);
+    --font-serif: 'DM Serif Display', Georgia, serif;
+    --font-sans: 'DM Sans', sans-serif;
 }
 
-html {
-    background-color: #496DDB;
+
+html { scroll-behavior: smooth; }
+
+body {
+    background: var(--cream);
+    color: var(--dark);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.7;
+    position: relative;
 }
