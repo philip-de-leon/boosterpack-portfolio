@@ -22,3 +22,30 @@ body {
     line-height: 1.7;
     position: relative;
 }
+
+#quote {
+    background: var(--accent);
+    padding: 5rem 4rem;
+}
+
+#quote blockquote {
+    font-family: var(--font-serif);
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: #e8f0eb;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+#quote cite {
+    font-size: 0.85rem;
+    color: rgba(232,240,235,0.6);
+    letter-spacing: 0.05em;
+    font-style: normal;
+}
+
+.quote-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
